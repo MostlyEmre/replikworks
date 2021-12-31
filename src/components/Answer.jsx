@@ -2,7 +2,7 @@ import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
 export const Answer = ({ setQuestionNumber, questionNumber, setScore, score, correctAnswer, questions, setScoreboard }) => {
-  const sloths = ["Lousyd", "Aemrod", "F5uck", "Mazaai", "Margy", "Semkan", "Soybenny", "Xmalion"];
+  const sloths = ["Lousyd", "Aemrod", "F5uck", "Mazaai", "Margy", "Semkan", "Soybenny", "Xmailon"];
   const questionCount = questions.length;
   const handleClick = (e) => {
     // check if the answer is true
