@@ -17,13 +17,13 @@ function App() {
   }, []);
 
   if (loading) {
-    return <p>loading</p>;
+    return <p>yukleniyom</p>;
   }
 
   if (scoreboard) {
     return (
       <div>
-        <h1>replikworks</h1>
+        <h1>🦥 replikworks</h1>
         <p>
           Oyun bitti, skorun {score}/{questions.length}
         </p>
