@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { v4 as uuidv4 } from "uuid";
 
-export const Answer = ({ setQuestionNumber, questionNumber, setScore, score, correctAnswer, setQuestionData, questions, setScoreboard }) => {
+export const Answer = ({ setQuestionNumber, questionNumber, setScore, score, correctAnswer, questions, setScoreboard }) => {
   const sloths = ["Lousyd", "Aemrod", "F5uck", "Mazaai", "Margy", "Semkan", "Soybenny", "Xmalion"];
   const questionCount = questions.length;
   const handleClick = (e) => {

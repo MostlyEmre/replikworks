@@ -1,9 +1,7 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { Answer } from "./Answer";
 
 export const Question = ({ setQuestionNumber, questionNumber, setScore, score, questions, loading, setScoreboard }) => {
-  const [questionData, setQuestionData] = useState();
-
   if (loading) {
     <p>loading</p>;
   } else {
@@ -17,7 +15,6 @@ export const Question = ({ setQuestionNumber, questionNumber, setScore, score, q
           setScore={setScore}
           questionNumber={questionNumber}
           questions={questions}
-          setQuestionData={setQuestionData}
           setScoreboard={setScoreboard}
         />
       </div>
