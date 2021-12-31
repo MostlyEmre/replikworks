@@ -12,16 +12,16 @@ button {
   display: inline;
   margin: 0.5rem 0.5rem;
   font-size: 1rem;
-  background-color: rgb(206, 206, 206);
+  background-color: #b9b0ab;
   border-radius: 0.5rem;
-  padding: 4px 8px;
+  padding: 6px 8px;
   font-weight: bold;
-  border: violet 3px solid;
+  border: none;
 }
 
 button:hover {
   cursor: pointer;
-  border: rgb(161, 88, 161) 3px solid;
+  background-color: whitesmoke;
 }
 
 a {

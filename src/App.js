@@ -35,7 +35,7 @@ function App() {
   if (questions.length !== 0) {
     return (
       <div className="App">
-        <h1>replikworks</h1>
+        <h1>🦥 replikworks</h1>
         <p>Skor: {score}</p>
         <Question
           questionNumber={questionNumber}
